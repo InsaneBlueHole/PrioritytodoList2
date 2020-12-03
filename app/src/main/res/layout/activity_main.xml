@@ -21,34 +21,34 @@
 
     <Button
         android:id="@+id/focusButton"
-        android:layout_width="166dp"
+        android:layout_width="171dp"
         android:layout_height="63dp"
         android:text="Daily Focus"
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toTopOf="@+id/iMustCompleteButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.51" />
 
     <Button
         android:id="@+id/iMustCompleteButton"
-        android:layout_width="167dp"
-        android:layout_height="160dp"
+        android:layout_width="171dp"
+        android:layout_height="166dp"
         android:text="I must complete"
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201" />
+        app:layout_constraintVertical_bias="0.198" />
 
     <Button
         android:id="@+id/iReallyShouldButton"
-        android:layout_width="172dp"
-        android:layout_height="175dp"
+        android:layout_width="171dp"
+        android:layout_height="166dp"
         android:text="I really should"
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,55 +73,55 @@
 
     <Button
         android:id="@+id/threeThingsButton"
-        android:layout_width="150dp"
-        android:layout_height="61dp"
+        android:layout_width="180dp"
+        android:layout_height="96"
         android:text="Top 3 things"
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.126" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <Button
         android:id="@+id/dontForgetButton"
-        android:layout_width="177dp"
-        android:layout_height="71dp"
+        android:layout_width="180dp"
+        android:layout_height="96dp"
         android:text="What not to Forget"
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <Button
         android:id="@+id/contactHistoryButton"
-        android:layout_width="174dp"
-        android:layout_height="97dp"
+        android:layout_width="180dp"
+        android:layout_height="96dp"
         android:text="calls and messages"
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/placesToGoButton"
-        android:layout_width="168dp"
-        android:layout_height="78dp"
+        android:layout_width="180dp"
+        android:layout_height="96dp"
         android:text="errands to run"
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintVertical_bias="0.685" />
 
     <Button
         android:id="@+id/caresForLaterButton"
@@ -131,9 +131,9 @@
         app:backgroundTint="#F482A9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.858" />
+        app:layout_constraintVertical_bias="0.889" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
