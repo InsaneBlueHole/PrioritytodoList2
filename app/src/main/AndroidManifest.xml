@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priorityto_dolist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PriorityTodoList">
+        <activity android:name=".Notes_for_worries_for_another_day"></activity>
+        <activity android:name=".Notes_for_errands_to_run" />
+        <activity android:name=".Notes_for_calls_and_messages" />
+        <activity android:name=".Notes_for_what_not_to_forget" />
+        <activity android:name=".Notes_for_top_three_things" />
+        <activity android:name=".Notes_for_if_I_have_time" />
+        <activity android:name=".Notes_for_what_I_really_should_do" />
+        <activity android:name=".Notes_for_what_I_must_complete" />
+        <activity android:name=".Notes_for_daily_focus" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
